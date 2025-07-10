@@ -1,4 +1,6 @@
-package POOclasses.aula01;
+package POOclasses.aula01.test;
+
+import POOclasses.aula01.domain.Estudante;
 
 public class EstudanteTeste {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package POOclasses.aula01;
+package POOclasses.aula01.domain;
 
 public class Estudante {
     public String nome = "zoro";
