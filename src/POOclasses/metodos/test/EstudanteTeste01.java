@@ -25,14 +25,15 @@ public class EstudanteTeste01 {
         System.out.println(estudante2.nome);
         System.out.println(estudante2.idade);
         System.out.println(estudante2.sexo);
+//-------------------------------------------------//
 
 
+        //imprimindo passsando como parametro a variavel de referencia estudante//
         impressEstudante.imprimeEstudante(estudante1);
         impressEstudante.imprimeEstudante(estudante2);
         System.out.println("----------------------");
         impressEstudante.imprimeEstudante(estudante1);
         impressEstudante.imprimeEstudante(estudante2);
-
 
 
     }
