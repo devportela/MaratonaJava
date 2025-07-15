@@ -1,4 +1,4 @@
-package POOclasses.metodos.domain;
+package POO.metodos.domain;
 
 public class Calculadora {
     public void somaDoisNumeros() {

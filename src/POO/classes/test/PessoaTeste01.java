@@ -1,6 +1,6 @@
-package POOclasses.classes.test;
+package POO.classes.test;
 
-import POOclasses.classes.domain.Pessoa;
+import POO.classes.domain.Pessoa;
 
 public class PessoaTeste01 {
     public static void main(String[] args) {

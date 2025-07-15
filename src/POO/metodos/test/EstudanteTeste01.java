@@ -1,7 +1,7 @@
-package POOclasses.metodos.test;
+package POO.metodos.test;
 
-import POOclasses.metodos.domain.Estudante;
-import POOclasses.metodos.domain.ImpressoraEstudante;
+import POO.metodos.domain.Estudante;
+import POO.metodos.domain.ImpressoraEstudante;
 
 public class EstudanteTeste01 {
     public static void main(String[] args) {
