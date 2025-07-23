@@ -1,12 +1,12 @@
 package POO.Enumeracoes.domain;
 
 public enum tipoPagamento {
-    DEBITO{
+    DEBITO {
         @Override
         public double calcularDesconto(double valor) {
             return valor * 0.1;
         }
-    }, CREDITO{
+    }, CREDITO {
         @Override
         public double calcularDesconto(double valor) {
             return valor * 0.05;
@@ -14,8 +14,10 @@ public enum tipoPagamento {
     };
 
 
+    public abstract double calcularDesconto(double valor);
+    {
 
-    public abstract double calcularDesconto(double valor);{
-        
     }
+
+
 }
