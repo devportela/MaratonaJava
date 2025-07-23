@@ -1,6 +1,6 @@
 package POO.classesAbstratas.domain;
 
-public class Gerente extends Funcionario{
+public class Gerente extends Funcionario {
     public Gerente(String nome, double salario) {
         super(nome, salario);
     }
@@ -13,10 +13,10 @@ public class Gerente extends Funcionario{
                 '}';
     }
 
+
     @Override
-    public void calculaBonus(){
+    public void calculaBonus() {
         this.salario = salario + salario * 0.2;
 
     }
-
 }
